@@ -1,0 +1,52 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* For visibility and invisibility of the message */
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+#success-msg{
+
+    text-align: center;
+
+    width: 500px;
+    padding: 20px;
+    color: rgb(1, 214, 97);
+    background-color: rgb(134, 252, 187);
+}
+
+#submit{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(1, 214, 97);
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#reset{
+    color: rgb(247, 28, 57);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn-group{
+    margin-top: 100px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
